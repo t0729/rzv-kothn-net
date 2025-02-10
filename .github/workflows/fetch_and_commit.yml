@@ -1,8 +1,7 @@
-name: Fetch and Commit Data
-
 on:
+  push:
   schedule:
-    - cron: '*/1 * * * *'  # 1分ごとに実行
+    - cron: '*/1 * * * *'
 
 jobs:
   update-data:
